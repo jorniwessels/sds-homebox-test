@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: homebox-configmap
+data:
+  HBOX_LOG_FORMAT: "text"
+  HBOX_LOG_LEVEL: "info"
+  HBOX_WEB_MAX_UPLOAD_SIZE: "10"
+  TZ: "Europe/Amsterdam"
+  HBOX_OPTIONS_ALLOW_REGISTRATION: "true"
