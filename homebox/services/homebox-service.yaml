@@ -7,6 +7,6 @@ spec:
   selector:
     app: homebox
   ports:
-    - port: 7745
+    - port: 80
       targetPort: 7745
   type: LoadBalancer
