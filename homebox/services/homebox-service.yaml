@@ -9,4 +9,4 @@ spec:
   ports:
     - port: 7745
       targetPort: 7745
-  type: loadBalancer
+  type: LoadBalancer
